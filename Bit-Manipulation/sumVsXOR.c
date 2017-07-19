@@ -1,3 +1,9 @@
+/*
+Xor is same as add except that it ignores carry. So if digit is 0 in one number, no carry possible, Only if digit is 1, carry can occur. So -
+1) find number of zeroes
+2) two to the power of number of zeroes gives result
+*/
+
 #include <math.h>
 #include <stdio.h>
 
